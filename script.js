@@ -7,8 +7,8 @@ var js_soma;
 function somarnumeros() {
 /* Entrada de Dados */
 
-js_primeironumero = parseFloat(document.getElementById('j_primeironumero').value);
-js_segundonumero = parseFloat(document.getElementById('j_segundonumero').value);
+js_primeironumero = parseFloat(document.getElementById('j_primeironumero').value); //Pode ser parseFloat(document.Formsoma.j_primeironumero.value) tbm!
+js_segundonumero = parseFloat(document.getElementById('j_segundonumero').value); // Pode ser parseFloat(document.Formsoma.j_segundonumero.value) tbm!
 /* Processamento de Dados */
 js_soma= js_primeironumero + js_segundonumero;
 /* Saída de Dados */
